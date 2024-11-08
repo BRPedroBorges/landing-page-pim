@@ -1,11 +1,10 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Header */
 .banner {
     width: 100%;
     height: 31.25rem; 
@@ -78,7 +77,6 @@
     padding-bottom: 1rem;
 }
 
-/* Animations */
 @keyframes slideIn {
     from {
         transform: translateX(100%);
@@ -99,7 +97,6 @@
     }
 }
 
-/* Services */
 .service-box {
     width: 100%;
     position: relative;
@@ -155,7 +152,6 @@
     color: #5b7329;
 }
 
-/* About the Company */
 .footer-container {
     background-image: url('../img/rodape.jpg');
     background-position: center;
@@ -218,7 +214,7 @@
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
+
 footer {
     clear: both;
     max-width: 75rem;
@@ -285,7 +281,7 @@ footer {
     cursor: pointer;
     opacity: 0.50;
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
-    border-radius: 0.5rem; /* Arredondar bordas do botão */
+    border-radius: 0.5rem; 
 }
 
 .form-container .submit:hover {
